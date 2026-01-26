@@ -222,8 +222,7 @@ const Portfolio = () => {
     { name: 'Tailwind', icon: SiTailwindcss, color: 'from-cyan-400 to-cyan-600' },
     { name: 'HTML5', icon: FaHtml5, color: 'from-orange-400 to-orange-600' },
     { name: 'CSS3', icon: FaCss3, color: 'from-blue-400 to-blue-600' },
-    { name: 'Git', icon: FaGit, color: 'from-orange-500 to-orange-700' },
-    { name: 'Streamlit', icon: SiStreamlit, color: 'from-red-400 to-red-600' }
+    { name: 'Git', icon: FaGit, color: 'from-orange-500 to-orange-700' }
   ];
 
   const experience = [
@@ -235,7 +234,7 @@ const Portfolio = () => {
       technologies: ['React', 'Tailwind', 'JavaScript']
     },
     {
-      role: 'Computer Vision Engineer',
+      role: 'Fyp Plate Detection Manger',
       company: 'FYP - Real-time Vehicle Anomaly Detection',
       duration: '2025 – 2026',
       description: 'Led computer vision logic for Final Year Project using YOLO and OpenCV to flag real-time traffic anomalies with Python and Streamlit.',
@@ -257,7 +256,7 @@ const Portfolio = () => {
       description: 'Led computer vision logic for Final Year Project using YOLO, OpenCV, Python, and Streamlit to flag real-time traffic anomalies. Integrated deep learning models for vehicle detection and anomaly classification.',
       tech: ['Python', 'OpenCV', 'YOLO', 'Streamlit', 'Deep Learning'],
       year: '2025–2026',
-      image: 'https://images.unsplash.com/photo-1635356715142-27f354935369?w=500&h=300&fit=crop',
+      image: 'fyp.png',
       demo: '#',
       repo: 'https://github.com/m-anas456'
     },
@@ -267,7 +266,7 @@ const Portfolio = () => {
       description: 'Developed modern, user-focused frontend for ITVE platform. Built full responsive homepage with React and Tailwind CSS with advanced filtering and search functionality.',
       tech: ['React', 'Tailwind', 'JavaScript', 'Responsive Design'],
       year: '2024–2025',
-      image: 'https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=500&h=300&fit=crop',
+      image: '/itve.png',
       demo: 'https://itve-intern-by-muhammadanas.netlify.app/',
       repo: 'https://github.com/m-anas456'
     },
@@ -277,7 +276,7 @@ const Portfolio = () => {
       description: 'React-based e-commerce platform for digital games with cart functionality and responsive UI. Implemented payment gateway integration and user authentication.',
       tech: ['React', 'JavaScript', 'CSS', 'Payment Gateway'],
       year: '2026',
-      image: 'https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=500&h=300&fit=crop',
+      image: 'bk.png',
       demo: 'https://bk-games-store.netlify.app/',
       repo: 'https://github.com/m-anas456'
     },
@@ -322,9 +321,10 @@ const Portfolio = () => {
       type: 'College'
     },
     {
-      institution: 'Your High School Name',
+      institution: 'Commecs College',
       degree: 'Intermediate / FSc',
       duration: '2020 – 2022',
+      percent: '87%',
       type: 'School'
     }
   ];
@@ -510,7 +510,7 @@ const Portfolio = () => {
                   <User className="text-blue-400 mb-4" size={32} />
                   <h3 className="text-xl sm:text-2xl font-bold text-blue-400 mb-4">Who I Am</h3>
                   <p className="text-gray-300 leading-relaxed">
-                    I'm a passionate Full Stack Developer and Computer Vision enthusiast studying Computer Science at NED University. With expertise in React, Python, and modern web technologies, I build scalable solutions that solve real-world problems.
+                    I'm a passionate Full Stack Developer currently studying Computer Science at NED University. With expertise in React, Python, and modern web technologies, I build scalable solutions that solve real-world problems.
                   </p>
                 </div>
               </RevealOnScroll>
@@ -520,7 +520,7 @@ const Portfolio = () => {
                   <Briefcase className="text-cyan-400 mb-4" size={32} />
                   <h3 className="text-xl sm:text-2xl font-bold text-cyan-400 mb-4">What I Do</h3>
                   <p className="text-gray-300 leading-relaxed">
-                    I develop full-stack web applications, create computer vision solutions, and optimize applications for performance. From responsive UI design to backend architecture, I deliver complete digital experiences.
+                    I develop full-stack web applications, and optimize applications for performance. From responsive UI design to backend architecture, I deliver complete digital experiences.
                   </p>
                 </div>
               </RevealOnScroll>
@@ -682,7 +682,7 @@ const Portfolio = () => {
             <RevealOnScroll delay={100}>
               <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/m-anas456"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-500/10 border border-blue-500/30 rounded-2xl p-6 sm:p-8 hover:border-blue-500/60 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20 hover:bg-blue-500/20 group"
