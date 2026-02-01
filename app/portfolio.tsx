@@ -200,8 +200,8 @@ const Portfolio = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '\M.Anas resume.pdf';
-    link.download = 'M.Anas resume.pdf';
+    link.href = '\Muhammad-Anas-Resume.pdf';
+    link.download = 'Muhammad-Anas-Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -287,8 +287,6 @@ const Portfolio = () => {
       tech: ['HTML', 'CSS', 'WordPress', 'SEO'],
       year: '2024',
       image: 'https://images.unsplash.com/photo-1507238691740-f77fbcfc6ef1?w=500&h=300&fit=crop',
-      demo: '#',
-      repo: '#'
     },
     {
       id: 5,
@@ -307,7 +305,7 @@ const Portfolio = () => {
       tech: ['React', 'JavaScript', 'API Integration', 'Redux'],
       year: '2025',
       image: 'https://images.unsplash.com/photo-1523712999610-f77fbcfc6ef1?w=500&h=300&fit=crop',
-      demo: 'https://maverse.netlify.app/',
+    
       repo: 'https://github.com/m-anas456'
     }
   ];
@@ -479,7 +477,7 @@ const Portfolio = () => {
                   <Linkedin size={20} className="sm:w-6 sm:h-6" />
                 </a>
                 <a
-                  href="mailto:muhammadanas668844@gmail.com"
+                  href="mailto:muhanas420786@gmail.com"
                   className="p-2 sm:p-3 bg-blue-500/10 hover:bg-blue-500/30 rounded-lg transition-all duration-300 hover:scale-125 border border-blue-500/30 hover:border-blue-500/60"
                 >
                   <Mail size={20} className="sm:w-6 sm:h-6" />
@@ -704,12 +702,12 @@ const Portfolio = () => {
                 </a>
 
                 <a
-                  href="mailto:muhammadanas668844@gmail.com"
+                  href="mailto:muhanas420786@gmail.com"
                   className="bg-cyan-500/10 border border-cyan-500/30 rounded-2xl p-6 sm:p-8 hover:border-cyan-500/60 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 hover:bg-cyan-500/20 group md:col-span-2"
                 >
                   <Mail className="text-cyan-400 mb-4 group-hover:scale-125 transition-transform" size={32} />
                   <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2">Email</h3>
-                  <p className="text-gray-300 text-sm sm:text-base">muhammadanas668844@gmail.com</p>
+                  <p className="text-gray-300 text-sm sm:text-base">muhanas420786@gmail.com</p>
                 </a>
               </div>
             </RevealOnScroll>
