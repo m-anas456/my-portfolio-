@@ -211,8 +211,9 @@ const Portfolio = () => {
     'Full Stack Developer',
     'React.js Specialist',
     'NED Undergrad',
-    'Computer Vision Enthusiast',
-    'Problem Solver'
+    'Problem Solver',
+    'Team Manager',
+    'UI UX Enthusiast',
   ];
 
   const skills = [
@@ -286,7 +287,7 @@ const Portfolio = () => {
       description: 'Built for local solar company with modern design, mobile responsiveness, and SEO optimization. Included service showcase, contact forms, and testimonials section.',
       tech: ['HTML', 'CSS', 'WordPress', 'SEO'],
       year: '2024',
-      image: 'https://images.unsplash.com/photo-1507238691740-f77fbcfc6ef1?w=500&h=300&fit=crop',
+      image: 'solar.png',
     },
     {
       id: 5,
@@ -304,7 +305,7 @@ const Portfolio = () => {
       description: 'Movie database application with real-time data from external APIs and advanced filtering options. Features include watchlist, ratings, and recommendations.',
       tech: ['React', 'JavaScript', 'API Integration', 'Redux'],
       year: '2025',
-      image: 'https://images.unsplash.com/photo-1523712999610-f77fbcfc6ef1?w=500&h=300&fit=crop',
+      image: 'movie.png',
     
       repo: 'https://github.com/m-anas456'
     },
