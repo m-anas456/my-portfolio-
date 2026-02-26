@@ -258,7 +258,7 @@ const Portfolio = () => {
       year: '2025–2026',
       image: 'fyp.png',
       demo: '#',
-      repo: 'https://github.com/m-anas456'
+      repo: 'https://github.com/shehzadres/Real_Time_Vehicle_Anomaly_Detection_System?tab=readme-ov-file#real_time_vehicle_anomaly_detection_system'
     },
     {
       id: 2,
@@ -296,7 +296,7 @@ const Portfolio = () => {
       year: '2024–2025',
       image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop',
       demo: '#',
-      repo: 'https://github.com/m-anas456'
+      repo: 'https://github.com/m-anas456/Sign-Language-Recognizer'
     },
     {
       id: 6,
@@ -306,6 +306,16 @@ const Portfolio = () => {
       year: '2025',
       image: 'https://images.unsplash.com/photo-1523712999610-f77fbcfc6ef1?w=500&h=300&fit=crop',
     
+      repo: 'https://github.com/m-anas456'
+    },
+    {
+      id: 7,
+      title: 'Asyc Services Platform ',
+      description: 'Movie database application with real-time data from external APIs and advanced filtering options. Features include watchlist, ratings, and recommendations.',
+      tech: ['React', 'JavaScript', 'API Integration', 'Redux'],
+      year: '2025',
+      image: 'ayasc.png',
+      demo:'https://ayasc-platform.netlify.app/',
       repo: 'https://github.com/m-anas456'
     }
   ];
